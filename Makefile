@@ -35,7 +35,7 @@ versions:
 	uname -a >> VERSIONS 2>&1
 
 clean:
-	find . -maxdepth 0 -executable -type f -delete
+	find . -maxdepth 1 -executable -type f -delete
 	rm -f *.xxd *.objdump
 
 %:
