@@ -23,7 +23,7 @@
 
 template: nop.c
 	gcc -o nop -nostdlib nop.c
-	xxd -c4 nop >> template.xxc
+	xxd -c4 nop > template.xxc
 	rm -f nop
 
 versions:
