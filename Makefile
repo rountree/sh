@@ -40,7 +40,7 @@ clean:
 
 %:
 	sed "/^#/d" $@.xxc > $@.xxd					# Remove comments from binary dump
-	xxd -c32 -r $@.xxd $@						# Creates binary from binary dump
+	xxd -c4 -r $@.xxd $@						# Creates binary from binary dump
 	objdump --disassemble $@ > $@.objdump 2>&1	# Nice sanity check
 	chmod 700 $@								# Makes the binary executable
 
