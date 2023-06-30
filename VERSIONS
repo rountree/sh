@@ -1,0 +1,35 @@
+xxd 2022-01-14 by Juergen Weigert et al.
+
+gcc (Spack GCC) 12.2.0
+Copyright (C) 2022 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+GNU objdump (GNU Binutils) 2.40
+Copyright (C) 2023 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) any later version.
+This program has absolutely no warranty.
+
+GNU Make 4.4.1
+Built for aarch64-unknown-linux-gnu
+Copyright (C) 1988-2023 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+GNU bash, version 5.2.15(1)-release (aarch64-unknown-linux-gnu)
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+
+This is free software; you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+GNU gdb (GDB) Red Hat Enterprise Linux 8.2-19.el8
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Linux ulna2 4.18.0-425.3.1.1toss.t4.aarch64 #1 SMP Fri Nov 11 20:04:52 PST 2022 aarch64 aarch64 aarch64 GNU/Linux
