@@ -1,0 +1,10 @@
+# Copy this file into your home directory as .gdbinit
+# to have a nicer gdb experience.
+#
+# 
+set disassemble-next-line on
+show disassemble-next-line
+layout asm
+focus cmd
+set backtrace past-main on
+
