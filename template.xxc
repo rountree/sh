@@ -1,3 +1,44 @@
+# 3322 2222 2222 1111 1111 11                               little
+# 1098 7654 3210 9876 5432 1098 7654 3210   mnemonic        endian
+# ---------------------------------------   ----------------------------------------------------------------------------
+# 1111 0001 0sii iiii iiii iinn nnnd dddd   SUBS (immed)                s<-shift12, i<-imm12, n<-src d<-dest
+# 1011 0001 0sii iiii iiii iinn nnnd dddd   ADDS (immed)                s<-shift12, i<-imm12, n<-src d<-dest
+# 1101 0100 000i iiii iiii iiii iii0 0001   SVC             010000d4
+#    d    4    0    0    0    0    0    1
+#
+# system
+#  calls    x8          x0          x1          x2          x3          x4          x5          x6          x7
+# ----------------------------------------------------------------------------------------------------------------------
+# getcwd    0x11        char *buf   unsigned
+#                                   long size
+#
+# ioctl     0x1d        unsigned    unsigned    unsigned
+#                       int fd      int cmd     long arg
+#
+# openat    0x38        int dfd     const char* int flags   umode_t
+#                                   filename                mode
+#
+# close     0x39        unsigned
+#                       int fd
+#
+# read      0x3f        unsigned    char *buf   size_t
+#                       int fd                  count
+#
+# write     0x40        unsigned    const char* size_t
+#                       int fd      buf         count
+#
+# exit      0x59        int
+#                       error_code
+#
+# brk       0xd6        unsigned
+#                       long brk
+#
+# mmap      0xde        void*       size_t      int prot    int flags   int fd      off_t
+#                       addr        length                                          offset
+#
+# statx     0x123       int dfd     const char* unsigned    unsigned    struct
+#                                   path        flags       mask        statx* buf
+#
 00000000: 7f45 4c46  .ELF
 00000004: 0201 0100  ....
 00000008: 0000 0000  ....
